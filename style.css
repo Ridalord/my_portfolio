@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  background: #e5e5e5;
+}
+
 ul {
   list-style: none;
 }
@@ -25,6 +29,7 @@ ul {
 @media (min-width: 375px) {
   .navbar {
     padding: 14px 24px;
+    background-color: #ffff;
   }
 
   .main {
@@ -36,6 +41,8 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 24px 24px;
+    border-bottom-left-radius: 58px;
+    background-color: #ffff;
   }
 
   .logo {

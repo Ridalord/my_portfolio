@@ -3,70 +3,73 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .d-flex {
   display: flex;
 }
+
 .justify-content-between {
   justify-content: space-between;
 }
+
 .hover:hover {
   cursor: pointer;
 }
 
-
 /* Styles for mobile devices with a minimum screen width of 375px */
 @media (min-width: 375px) {
+
   .navbar {
     padding: 14px 24px;
   }
+
   .main {
     flex-direction: column;
     min-height: 80vh;
     row-gap: 12px;
-  }
-  .logo {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070FF;
-  }
-  .main {
     background-image: url(img/header-shapes\ mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 24px 24px;
   }
+
+  .logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+  }
+
   .intro {
     margin-top: 114px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
   }
+
   .intro-sub {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
   }
+
   .socials {
     flex-direction: column;
     column-gap: 14px;
   }
+
   .socials-header {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7F8Cff;
   }
+  
   .socials-icons {
     width: 46%;
     margin-bottom: 112px;
   }
-}
-
-/* Styles for desktop devices with a minimum screen width of 768px */
-@media (min-width: 768px) {
-  
 }

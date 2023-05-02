@@ -260,4 +260,42 @@ ul {
     line-height: 20px;
     margin: auto 0;
   }
+
+  .contact {
+    background-color: #ffff;
+  }
+
+  .contact-wrap {
+    flex-direction: column;
+    background-color: #6070ff;
+    border-top-left-radius: 58px;
+    background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+  }
+
+  .contact-intro {
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .contact-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 103px;
+  }
+
+  .contact-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 52px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
 }

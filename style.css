@@ -305,7 +305,8 @@ ul {
     row-gap: 12px;
   }
 
-  .contact-form input, .contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     border-radius: 8px;
     padding: 15px 38px 15px 16px;
     font-weight: 400;
@@ -313,9 +314,5 @@ ul {
     line-height: 20px;
     border: none;
     color: #172b4d;
-  }
-
-  .contact-message {
-    height: 170px;
   }
 }

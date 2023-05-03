@@ -322,3 +322,7 @@ ul {
     margin-bottom: 1px;
   }
 }
+
+@media (min-width: 768px) {
+  
+}

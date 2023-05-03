@@ -260,4 +260,65 @@ ul {
     line-height: 20px;
     margin: auto 0;
   }
+
+  .contact {
+    background-color: #ffff;
+  }
+
+  .contact-wrap {
+    flex-direction: column;
+    background-color: #6070ff;
+    border-top-left-radius: 58px;
+    background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .contact-intro {
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 0 24px;
+  }
+
+  .contact-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 103px;
+  }
+
+  .contact-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 52px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+    padding: 0 24px 45px;
+    row-gap: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border-radius: 8px;
+    padding: 15px 38px 15px 16px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    border: none;
+    color: #172b4d;
+  }
+
+  .contact-message {
+    height: 170px;
+    resize: none;
+    margin-bottom: 1px;
+  }
 }

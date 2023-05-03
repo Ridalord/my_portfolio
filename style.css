@@ -324,5 +324,11 @@ ul {
 }
 
 @media (min-width: 768px) {
-  
+  .navbar {
+    padding: 24px 155px;
+  }  
+
+  .menu {
+    display: none;
+  }
 }

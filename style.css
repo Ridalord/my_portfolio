@@ -302,7 +302,7 @@ ul {
   .contact-form {
     flex-direction: column;
     padding: 0 24px 45px;
-    row-gap: 12px;
+    row-gap: 20px;
   }
 
   .contact-form input,
@@ -314,5 +314,11 @@ ul {
     line-height: 20px;
     border: none;
     color: #172b4d;
+  }
+
+  .contact-message {
+    height: 170px;
+    resize: none;
+    margin-bottom: 1px;
   }
 }

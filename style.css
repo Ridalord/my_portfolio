@@ -331,6 +331,11 @@ a {
     resize: none;
     margin-bottom: 1px;
   }
+
+  .details {
+    flex-direction: column;
+    row-gap: 12px;
+  }
 }
 
 @media (min-width: 768px) {

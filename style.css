@@ -48,7 +48,7 @@ a {
 
   .main {
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 91vh;
     row-gap: 12px;
     background-image: url(img/header-shapes\ mobile.png);
     background-position: center;
@@ -454,5 +454,36 @@ a {
     grid-row: 1/2;
   }
   
-  
+  .about {
+    padding: 144px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 48px;
+    border-top-right-radius: 88px;
+  }
+
+  .stack {
+    margin-top: 0;
+  }
+
+  .socials-icons {
+    width: 100%;
+    justify-content: left;
+    column-gap: 21px;
+  }
+
+  .stack-list {
+    flex-direction: row;
+  }
+
+  .stack-list li {
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .stack-list img {
+    width: 48px;
+    height: 48px;
+  }
 }

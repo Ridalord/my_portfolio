@@ -317,7 +317,7 @@ a {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #ffff;
+    color: #ebebff;
     margin-bottom: 52px;
   }
 
@@ -503,9 +503,16 @@ a {
     width: 60%;
     justify-self: center;
     margin: auto;
+    padding-bottom: 127px;
   }
 
   .contact-form button {
     margin: auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
   }
 }

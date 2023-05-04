@@ -118,6 +118,13 @@ a {
     row-gap: 12px;
   }
 
+  .tonic:hover .works-button {
+    border: 1px solid #7e9ef0;
+    color: #ffff;
+    background-color: #396df2;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24)
+  }
+
   .works-header {
     font-weight: 700;
     font-size: 32px;
@@ -137,8 +144,9 @@ a {
     font-size: 13px;
     line-height: 16px;
     color: #7a869a;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: left;
+    width: 100%;
+    column-gap: 12px;
   }
 
   .main-header {
@@ -154,6 +162,9 @@ a {
 
   .works-stack {
     width: 70%;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: left;
   }
 
   .works-stack li {
@@ -175,6 +186,7 @@ a {
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
+    background-color: #ffff;
   }
 
   .works-button:hover {
@@ -335,6 +347,7 @@ a {
   .details {
     flex-direction: column;
     row-gap: 12px;
+    padding: 24px;
   }
 }
 
@@ -386,4 +399,60 @@ a {
   .socials-icons {
     width: 20%;
   }
+
+  .tonic {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px;
+    column-gap: 22px;
+  }
+
+  .tonic:hover {
+    border: 2px solid #a7aeff;
+    cursor: pointer;
+  }
+
+  .works {
+    margin: 142px;
+    row-gap: 142px;
+  }
+
+  .works-header {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .header-sub {
+    justify-content: left;
+    column-gap: 12px;
+  }
+
+  .details {
+    row-gap: 24px;
+  }
+
+  .works-stack {
+    justify-content: left;
+    column-gap: 8px;
+    width: fit-content;
+  }
+
+  .header-sub,
+  .main-header {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .works-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .flex-reverse .works-image {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  
 }

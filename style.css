@@ -486,4 +486,26 @@ a {
     width: 48px;
     height: 48px;
   }
+
+  .contact-wrap {
+    background-image: url(img/contact\ form\ background\ shapes@2x.png);
+    padding-left: 319px;
+    padding-right: 319px;
+    justify-content: center;
+    border-top-left-radius: 88px;
+  }
+
+  .contact-text {
+    padding: 0 16%;
+  }
+
+  .contact-form {
+    width: 60%;
+    justify-self: center;
+    margin: auto;
+  }
+
+  .contact-form button {
+    margin: auto;
+  }
 }

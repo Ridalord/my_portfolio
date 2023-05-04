@@ -117,6 +117,18 @@ a {
     border-radius: 16px;
     row-gap: 12px;
   }
+  
+  .works-button {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 126px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    background-color: #ffff;
+  }
 
   .works-button:hover {
     border: 1px solid #7e9ef0;
@@ -181,18 +193,6 @@ a {
     font-size: 12px;
     line-height: 16px;
     color: #6070ff;
-  }
-
-  .works-button {
-    padding: 12px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    width: 126px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    color: #396df2;
-    background-color: #ffff;
   }
 
   .about {
@@ -455,7 +455,7 @@ a {
     grid-column: 2/3;
     grid-row: 1/2;
   }
-  
+
   .about {
     padding: 144px;
     display: grid;

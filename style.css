@@ -356,6 +356,12 @@ a {
     padding: 24px 155px;
   }
 
+  .logo-link {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+    transition-delay: 4s;
+  }
+
   .menu img {
     display: none;
   }
@@ -381,6 +387,13 @@ a {
     font-size: 48px;
     line-height: 60px;
     flex-direction: column;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .intro:hover {
+    cursor: pointer;
   }
 
   .intro-sub {

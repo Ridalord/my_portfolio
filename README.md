@@ -112,6 +112,8 @@ To run tests, open the index.html file in a browser and ensure that all texts ar
 You can deploy this project using:
 
 **Github pages**
+This project was deployed with `github pages` and is now live on the following url
+[My portfolio](https://ridalord.github.io/my_portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

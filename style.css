@@ -103,6 +103,7 @@ a {
     text-align: left;
     color: #ffff;
     z-index: 9999;
+    opacity: 1;
   }
 
   .menuLinks li {

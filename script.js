@@ -25,7 +25,7 @@ const portfolioDetails = [
     stack: 'Backend Dev',
     workStack: ['HTML', 'CSS', 'JAVASCRIPT'],
     img: 'img/nature.png',
-    source: '#',
+    source: 'https://github.com/Ridalord/my_portfolio.git',
     live: '#',
   },
   {
@@ -37,7 +37,7 @@ const portfolioDetails = [
     stack: 'Full Stack Dev',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/professional-art.png',
-    source: '#',
+    source: 'https://github.com/Ridalord/my_portfolio.git',
     live: '#',
   },
   {
@@ -49,7 +49,7 @@ const portfolioDetails = [
     stack: 'Full Stack Dev',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/facebook360.png',
-    source: '#',
+    source: 'https://github.com/Ridalord/my_portfolio.git',
     live: '#',
   },
   {
@@ -61,7 +61,7 @@ const portfolioDetails = [
     stack: 'Lead Developer',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/Availability.png',
-    source: '#',
+    source: 'https://github.com/Ridalord/my_portfolio.git',
     live: '#',
   },
 ];

@@ -416,7 +416,7 @@ a {
   .popup-section .tonic .close {
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 5px;
     font-size: 30px;
     color: #7a869a;
     border: none;

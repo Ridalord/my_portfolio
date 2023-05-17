@@ -1,8 +1,8 @@
 const menu = document.querySelectorAll('.menu-button');
 const navLinks = document.querySelector('.nav-links');
 const cancel = document.querySelector('.link-cancel');
-const portfolioItems = document.querySelectorAll('.portfolio-details');
 const wrapper = document.querySelector('.wrapper');
+const portfolio = document.getElementById("portfolio")
 menu.forEach((menuBtn) => {
   menuBtn.addEventListener('click', () => {
     if (navLinks.classList.contains('menuLinks')) {
@@ -66,15 +66,47 @@ const portfolioDetails = [
   },
 ];
 
-if (portfolioItems) {
-  portfolioItems.forEach((cards) => {
-    cards.addEventListener('click', (e) => {
-      const idValue = e.target.closest('.tonic').id;
-      for (let i = 0; i < portfolioDetails.length; i += 1) {
-        if (portfolioDetails[i].id === idValue) {
-          const popupSection = document.createElement('section');
-          popupSection.classList.add('popup-section');
-          popupSection.innerHTML = `
+if (portfolio) {
+  for (let i = 0; i < portfolioDetails.length; i += 1) {
+    const card = document.createElement('div')
+    card.setAttribute("id", `${i}`)
+    if (i % 2 === 0) {
+      card.classList.add("tonic", "d-flex")      
+    } else {
+      card.classList.add("tonic", "d-flex", "flex-reverse")
+    }
+    card.innerHTML = `
+      <div class="works-image">
+        <img src="${portfolioDetails[i].img}" alt="Multi-post Stories">
+      </div>
+      <div class="details d-flex">
+        <h2 class="works-header">${portfolioDetails[i].name}</h2>
+        <ul class="header-sub d-flex">
+          <li class="main-header">${portfolioDetails[i].title}</li>
+          <li><img src="img/Counter.png" alt="Counter"></li>
+          <li>${portfolioDetails[i].title}</li>
+          <li><img src="img/Counter.png" alt="Counter"></li>
+          <li>2015</li>
+        </ul>
+        <p class="works-text">${portfolioDetails[i].text}</p>
+        <ul class="works-stack d-flex">
+          ${portfolioDetails[i].workStack.map((stack) => `<li>${stack}</li>`).join('')}
+        </ul>
+        <button class="works-button portfolio-details">See Project</button>
+      </div>
+    `
+    portfolio.appendChild(card);
+    const portfolioItems = document.querySelectorAll('.portfolio-details');
+    if (portfolioItems) {
+      portfolioItems.forEach((cards) => {
+        cards.addEventListener('click', (e) => {
+          console.log(true)
+          const idValue = e.target.closest('.tonic').id;
+          for (let i = 0; i < portfolioDetails.length; i += 1) {
+            if (portfolioDetails[i].id === idValue) {
+              const popupSection = document.createElement('section');
+              popupSection.classList.add('popup-section');
+              popupSection.innerHTML = `
             <div class="background"></div>
             <div class="tonic d-flex">
               <button class="close" type="submit">
@@ -102,13 +134,17 @@ if (portfolioItems) {
               </div>
             </div>
           `;
-          wrapper.appendChild(popupSection);
-          const closeButton = popupSection.querySelector('.close');
-          closeButton.addEventListener('click', () => {
-            wrapper.removeChild(popupSection);
-          });
-        }
-      }
-    });
-  });
+              wrapper.appendChild(popupSection);
+              const closeButton = popupSection.querySelector('.close');
+              closeButton.addEventListener('click', () => {
+                wrapper.removeChild(popupSection);
+              });
+            }
+          }
+        });
+      });
+    }
+  }
 }
+
+

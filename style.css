@@ -408,9 +408,6 @@ a {
 
   .popup-section .tonic {
     position: relative;
-
-    /* margin-top: 50%;
-     */
     margin: auto;
     transform: translateY(5%);
     width: 90%;
@@ -627,5 +624,52 @@ a {
   .contact-form textarea {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
+  }
+
+  .popup-section .tonic {
+    grid-template-columns: 1fr;
+    width: 35%;
+    transform: translateY(0);
+    padding-top: 16px;
+  }
+
+  .popup-section .tonic .works-header{
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .popup-section .tonic .header-sub {
+    /* height: 500px; */
+    font-size: 12px !important;
+  }
+
+  .popup-section .tonic .details {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    column-gap: 16px;
+  }
+  
+  .popup-section .tonic .works-text {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .popup-section .tonic .works-stack {
+    flex-direction: row;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .popup-section .tonic .link-buttons {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .popup-section .tonic .works-stack li,
+  .popup-section .tonic .link-buttons button {
+    height: fit-content;
   }
 }

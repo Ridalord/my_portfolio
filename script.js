@@ -20,49 +20,49 @@ const portfolioDetails = [
     id: '1',
     name: 'Tonic',
     year: '2015',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: 'CANOPY',
     stack: 'Backend Dev',
     workStack: ['HTML', 'CSS', 'JAVASCRIPT'],
     img: 'img/nature.png',
     source: '#',
-    live: '#',
+    live: 'https://ridalord.github.io/my_portfolio/',
   },
   {
     id: '2',
     name: 'Multi-Post Stories',
     year: '2015',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: 'FACEBOOK',
     stack: 'Full Stack Dev',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/professional-art.png',
     source: '#',
-    live: '#',
+    live: 'https://ridalord.github.io/my_portfolio/',
   },
   {
     id: '3',
     name: 'Facebook 360',
     year: '2015',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: 'Facebook',
     stack: 'Full Stack Dev',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/facebook360.png',
     source: '#',
-    live: '#',
+    live: 'https://ridalord.github.io/my_portfolio/',
   },
   {
     id: '4',
     name: 'Uber Navigation',
     year: '2015',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: 'Uber',
     stack: 'Lead Developer',
     workStack: ['HTML', 'Ruby on Rails', 'CSS', 'JAVASCRIPT'],
     img: 'img/Availability.png',
     source: '#',
-    live: '#',
+    live: 'https://ridalord.github.io/my_portfolio/',
   },
 ];
 
@@ -88,8 +88,7 @@ if (portfolioItems) {
                 <li><img src="img/Counter.png" alt="Counter"></li>
                 <li>2015</li>
               </ul>
-              <div class="works-image">
-                <img src="${portfolioDetails[i].img}" alt="${portfolioDetails[i].name} Snapshoot">
+              <div class="works-image" style="background-image: url(${portfolioDetails[i].img});">
               </div>
               <div class="details d-flex">
                 <p class="works-text">${portfolioDetails[i].text}</p>

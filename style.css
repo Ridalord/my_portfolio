@@ -39,6 +39,26 @@ a {
   color: inherit;
 }
 
+input:invalid {
+  border: 2px solid red !important;
+}
+
+input:valid {
+  border: none !important;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  line-height: normal;
+}
+
 /* Styles for mobile devices with a minimum screen width of 375px */
 @media (min-width: 375px) {
   .navbar {

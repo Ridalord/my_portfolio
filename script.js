@@ -131,8 +131,8 @@ if (portfolioItems) {
                     ${portfolioDetails[i].workStack.map((stack) => `<li>${stack}</li>`).join('')}
                   </ul>
                   <div class="d-flex justify-content-between link-buttons">
-                    <button class="works-button"><a href="${portfolioDetails[i].live}">See Live <img src="img/live.png" alt="Live Link"/></a></button>
-                    <button class="works-button"><a href="${portfolioDetails[i].source}">See Source <img src="img/git.png" alt="Source Link"/></a></button>
+                    <button class="works-button"><a href="${portfolioDetails[i].live}" target="_blank">See Live <img src="img/live.png" alt="Live Link"/></a></button>
+                    <button class="works-button"><a href="${portfolioDetails[i].source}" target="_blank">See Source <img src="img/git.png" alt="Source Link"/></a></button>
                   </div>
                 </div>
               </div>

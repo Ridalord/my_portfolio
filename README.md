@@ -131,8 +131,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Other sections of the page]**
 - [ ] **[Previous projects]**
 - [ ] **[Onclick event to the Hamburger button]**
@@ -165,7 +163,6 @@ I would like to thank microverse for giving me this chance to showcase my skills
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project
 
 - **[What technologies did you use to build this project, and how can I replicate it in my own development environment?]**
 
